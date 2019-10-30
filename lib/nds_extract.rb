@@ -19,9 +19,6 @@ def directors_totals(nds)
     p obj2
   j += 1
   end
-    
-    
-    
     i+= 1
   end
   return result
