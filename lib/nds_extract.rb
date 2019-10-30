@@ -17,7 +17,7 @@ def directors_totals(nds)
     obj2 = movie_arr[j]
     value = obj2[:worldwide_gross]
     
-    p obj2
+    p value
   j += 1
   end
     i+= 1
