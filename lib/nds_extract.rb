@@ -17,10 +17,15 @@ def directors_totals(nds)
     obj2 = movie_arr[j]
     value = obj2[:worldwide_gross]
     
+    if result[name_key] == nil
+      result[name_key] = value 
+    else 
+      result[name_key] += value
+    end
     
   j += 1
   end
     i+= 1
   end
- 
+ result
 end
