@@ -15,6 +15,7 @@ def directors_totals(nds)
   
   while j < movie_arr.length 
     obj2 = movie_arr[j]
+    value = obj2[:worldwide_gross]
     
     p obj2
   j += 1
