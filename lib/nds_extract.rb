@@ -17,7 +17,7 @@ def directors_totals(nds)
     obj2 = movie_arr[j]
     
     p obj2
-  
+  j += 1
   end
     
     
